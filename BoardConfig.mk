@@ -59,6 +59,7 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 TARGET_PREBUILT_KERNEL := device/samsung/gts4lvwifi/prebuilt/Image.gz-dtb
 
 # Encryption
+PLATFORM_VERSION := 16.1.0
 PLATFORM_SECURITY_PATCH := 2025-12-31
 
 # Partitions
