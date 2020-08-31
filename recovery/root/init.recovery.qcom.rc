@@ -82,3 +82,6 @@ on property:crypto.ready=1
 
     start keymaster-4-0
     start gatekeeper-1-0
+
+on property:ro.build.version.security_patch=*
+    setprop ro.vendor.build.security_patch ${ro.build.version.security_patch}
