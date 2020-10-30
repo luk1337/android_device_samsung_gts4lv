@@ -56,7 +56,7 @@ BOARD_KERNEL_TAGS_OFFSET := 0x01E00000
 BOARD_RAMDISK_OFFSET := 0x02000000
 BOARD_MKBOOTIMG_ARGS := --kernel_offset $(BOARD_KERNEL_OFFSET) --ramdisk_offset $(BOARD_RAMDISK_OFFSET) --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
-TARGET_PREBUILT_KERNEL := device/samsung/gts4lvwifi/prebuilt/Image.gz-dtb
+TARGET_PREBUILT_KERNEL := device/samsung/gts4lv/prebuilt/Image.gz-dtb
 
 # Encryption
 PLATFORM_VERSION := 16.1.0
@@ -72,7 +72,7 @@ BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
 
 # Recovery
 BOARD_INCLUDE_RECOVERY_DTBO := true
-BOARD_PREBUILT_DTBOIMAGE := device/samsung/gts4lvwifi/prebuilt/dtbo.img
+BOARD_PREBUILT_DTBOIMAGE := device/samsung/gts4lv/prebuilt/dtbo.img
 TARGET_RECOVERY_PIXEL_FORMAT := BGRA_8888
 TARGET_USERIMAGES_USE_EXT4 := true
 

@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := gts4lvwifi
+PRODUCT_RELEASE_NAME := gts4lv
 
 $(call inherit-product, build/target/product/embedded.mk)
 
@@ -27,8 +27,8 @@ PRODUCT_COPY_FILES += \
     system/timezone/output_data/iana/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := gts4lvwifi
-PRODUCT_NAME := omni_gts4lvwifi
+PRODUCT_DEVICE := gts4lv
+PRODUCT_NAME := omni_gts4lv
 PRODUCT_BRAND := Samsung
-PRODUCT_MODEL := SM-T720
+PRODUCT_MODEL := SM-T725
 PRODUCT_MANUFACTURER := Samsung
